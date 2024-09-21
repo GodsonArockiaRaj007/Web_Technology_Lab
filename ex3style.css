@@ -1,0 +1,28 @@
+
+p{
+    font-family: Arial;
+    color: black;
+    font-size: large;
+}
+
+
+.throw:hover{
+        transform: scale(1.1); /* Zoom effect */
+    
+}
+.throw{
+    
+    border: none;
+    border-radius: 30px;
+    overflow: hidden; /* Hide overflow */
+    position: relative;
+    transition: transform 0.3s ease
+    
+}
+
+h1{
+    border: 50px;
+    text-align: center;
+    background-color: greenyellow;
+
+}
