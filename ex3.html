@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="ex3style.css">  
+    <title>Bootstrap Table Example</title>
+    <style>
+        body {
+            background-image: url('bg.jpg'); 
+            background-size:cover; 
+            background-position: center; 
+            background-repeat: no-repeat;
+            min-height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <!-- Heading -->
+    <h1  >Different Throwing Events</h1>
+    <section class="my-4 container">
+        <h2 class="text-center">Introduction</h2>
+        <p class="lead bg-light p-3 rounded shadow">
+            In athletics, there are four standard throwing events: <em class="text-success">shotput, discus, hammer, and javelin</em>. All involve the use of implements of various weights and shapes that are hurled for distance.
+        </p>
+    <div  style=" text-align: center;"><!-- Inline Styling -->
+        <h3 class="text-center" >Click the image</h3>
+        <img class="throw" src="throw.png" alt="Atheletics" usemap="#throw" width="500" height="500" >
+    </div>
+
+    <map name="throw">
+        <area class="img" target="_blank" shape="circle" coords="71,115,75" href="https://en.wikipedia.org/wiki/Shot_put/" alt="Shotput">
+        <area class="img" target="_blank" shape="circle" coords="369,379,118" href="https://en.wikipedia.org/wiki/Discus_throw" alt="Discus">
+        <area class="img" target="_blank" shape="circle" coords="298,155,47" href="https://en.wikipedia.org/wiki/Hammer_throw" alt="">
+        <area class="img" target="_blank" shape="poly" coords="18,471,40,484,239,294,191,248,134,268,31,432" href="https://en.wikipedia.org/wiki/Javelin_throw" alt="Javelin">
+        <area class="img" target="_blank" shape="poly" coords="289,102,323,93,376,76,446,50,438,39,457,37,485,43,479,46,458,52,429,61,378,82,322,100,299,106" href="https://en.wikipedia.org/wiki/Hammer_throw" alt="Hammer">
+        <area class="img" target="_blank" shape="rect" coords="18,471,64,446" hreaf="https://en.wikipedia.org/wiki/Javelin_throw" alt="Javelin">
+    </map>
+    </section>
+<div class="container mt-5">
+    <h2 class="text-center">Kings of Throwing</h2>
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th>S.No</th>
+                    <th>Event</th>
+                    <th>World Record</th>
+                    <th>Record Holder</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Shot put</td>
+                    <td>23.56 meters</td>
+                    <td>Ryan Crouser</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Javelin Throw</td>
+                    <td>98.48m</td>
+                    <td>Jan Zelezny</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Discus Throw</td>
+                    <td>72.34m</td>
+                    <td>Mykolas Alekna</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Hammer Throw</td>
+                    <td> 86.74 m</td>
+                    <td> Yuriy Sedykh</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+  <!-- Footer -->
+  <footer >
+    <h1>THANK YOU</h1>
+</footer>
+
+</body>
+</html>
